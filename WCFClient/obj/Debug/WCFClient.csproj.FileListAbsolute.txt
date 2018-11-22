@@ -1,0 +1,12 @@
+C:\Development\BTSPracCourse\PracBTS2009\WCFClient\bin\Debug\Microsoft.Samples.BizTalk.WCFBasicHttpReceiveAdapter.WCFClient.exe.config
+C:\Development\BTSPracCourse\PracBTS2009\WCFClient\bin\Debug\Microsoft.Samples.BizTalk.WCFBasicHttpReceiveAdapter.WCFClient.exe
+C:\Development\BTSPracCourse\PracBTS2009\WCFClient\bin\Debug\Microsoft.Samples.BizTalk.WCFBasicHttpReceiveAdapter.WCFClient.pdb
+C:\Development\BTSPracCourse\PracBTS2009\WCFClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\BTSPracCourse\PracBTS2009\WCFClient\obj\Debug\Microsoft.Samples.BizTalk.WCFBasicHttpReceiveAdapter.WCFClient.exe
+C:\Development\BTSPracCourse\PracBTS2009\WCFClient\obj\Debug\Microsoft.Samples.BizTalk.WCFBasicHttpReceiveAdapter.WCFClient.pdb
+C:\Development\BTSPracCourse\BTS2009\BTSPracCourse\WCFClient\bin\Debug\Microsoft.Samples.BizTalk.WCFBasicHttpReceiveAdapter.WCFClient.exe.config
+C:\Development\BTSPracCourse\BTS2009\BTSPracCourse\WCFClient\bin\Debug\Microsoft.Samples.BizTalk.WCFBasicHttpReceiveAdapter.WCFClient.exe
+C:\Development\BTSPracCourse\BTS2009\BTSPracCourse\WCFClient\bin\Debug\Microsoft.Samples.BizTalk.WCFBasicHttpReceiveAdapter.WCFClient.pdb
+C:\Development\BTSPracCourse\BTS2009\BTSPracCourse\WCFClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\BTSPracCourse\BTS2009\BTSPracCourse\WCFClient\obj\Debug\Microsoft.Samples.BizTalk.WCFBasicHttpReceiveAdapter.WCFClient.exe
+C:\Development\BTSPracCourse\BTS2009\BTSPracCourse\WCFClient\obj\Debug\Microsoft.Samples.BizTalk.WCFBasicHttpReceiveAdapter.WCFClient.pdb

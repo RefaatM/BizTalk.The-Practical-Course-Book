@@ -1,0 +1,4 @@
+C:\Development\BTSPracCourse\PracBTS2009\TestEmptyProject\bin\Debug\TestEmptyProject.dll
+C:\Development\BTSPracCourse\PracBTS2009\TestEmptyProject\bin\Debug\TestEmptyProject.pdb
+C:\Development\BTSPracCourse\PracBTS2009\TestEmptyProject\obj\Debug\TestEmptyProject.dll
+C:\Development\BTSPracCourse\PracBTS2009\TestEmptyProject\obj\Debug\TestEmptyProject.pdb

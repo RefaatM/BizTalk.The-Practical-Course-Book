@@ -1,0 +1,542 @@
+﻿#if __DESIGNER_DATA
+#error Do not define __DESIGNER_DATA.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<om:MetaModel MajorVersion="1" MinorVersion="3" Core="2b131234-7959-458d-834f-2dc0769ce683" ScheduleModel="66366196-361d-448d-976f-cab5e87496d2" xmlns:om="http://schemas.microsoft.com/BizTalk/2003/DesignerData">
+    <om:Element Type="Module" OID="049c8522-6b0d-4236-9e83-61fe41a6d4a1" LowerBound="1.1" HigherBound="179.1">
+        <om:Property Name="ReportToAnalyst" Value="True" />
+        <om:Property Name="Name" Value="PractBTS.ErrorCollection.ErrorHandler" />
+        <om:Property Name="Signal" Value="False" />
+        <om:Element Type="PortType" OID="df559828-0bbb-4397-89ec-6bca410a20cb" ParentLink="Module_PortType" LowerBound="4.1" HigherBound="11.1">
+            <om:Property Name="Synchronous" Value="False" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="ErrorsPortType" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="OperationDeclaration" OID="8534c551-d073-429a-90ef-eaf8088b26c1" ParentLink="PortType_OperationDeclaration" LowerBound="6.1" HigherBound="10.1">
+                <om:Property Name="OperationType" Value="OneWay" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Operation_RecieveError" />
+                <om:Property Name="Signal" Value="True" />
+                <om:Element Type="MessageRef" OID="340572fd-6004-4660-bd5b-dc8d9c006580" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="8.13" HigherBound="8.35">
+                    <om:Property Name="Ref" Value="System.Xml.XmlDocument" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+        <om:Element Type="PortType" OID="a6c1ba3d-a0b4-4130-9ca9-16a03a01abf4" ParentLink="Module_PortType" LowerBound="11.1" HigherBound="18.1">
+            <om:Property Name="Synchronous" Value="False" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="ArchivePortType" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="OperationDeclaration" OID="b7938f75-59e0-4ae0-a0a2-1b18b72829cf" ParentLink="PortType_OperationDeclaration" LowerBound="13.1" HigherBound="17.1">
+                <om:Property Name="OperationType" Value="OneWay" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Operation_1" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="MessageRef" OID="d42cc6e2-d243-4348-9059-750c47399e4e" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="15.13" HigherBound="15.35">
+                    <om:Property Name="Ref" Value="System.Xml.XmlDocument" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+        <om:Element Type="PortType" OID="3dd32176-8f78-4dbf-bfd4-d417ab321c28" ParentLink="Module_PortType" LowerBound="18.1" HigherBound="25.1">
+            <om:Property Name="Synchronous" Value="False" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="ErrorMsgPortType" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="OperationDeclaration" OID="82111c34-2c74-44b7-89fa-0c0b843d2075" ParentLink="PortType_OperationDeclaration" LowerBound="20.1" HigherBound="24.1">
+                <om:Property Name="OperationType" Value="OneWay" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Operation_1" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="MessageRef" OID="bc0e34af-220a-4a98-afa4-cd02bd3665e0" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="22.13" HigherBound="22.26">
+                    <om:Property Name="Ref" Value="PractBTS.ErrorCollection.ErrorHandler.EHErrorSchema" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+        <om:Element Type="PortType" OID="7356bd4e-a38f-4060-8541-903d542ac3be" ParentLink="Module_PortType" LowerBound="25.1" HigherBound="32.1">
+            <om:Property Name="Synchronous" Value="False" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="PortType_DynamixSend" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="OperationDeclaration" OID="9a1df924-eeb7-44d0-b337-135e4d170e7d" ParentLink="PortType_OperationDeclaration" LowerBound="27.1" HigherBound="31.1">
+                <om:Property Name="OperationType" Value="OneWay" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Operation_1" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="MessageRef" OID="db3168d2-58ac-4a87-8680-a3708386464d" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="29.13" HigherBound="29.35">
+                    <om:Property Name="Ref" Value="System.Xml.XmlDocument" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+        <om:Element Type="ServiceDeclaration" OID="4791abb0-b33f-450f-9598-a4df8d36f02a" ParentLink="Module_ServiceDeclaration" LowerBound="32.1" HigherBound="178.1">
+            <om:Property Name="InitializedTransactionType" Value="False" />
+            <om:Property Name="IsInvokable" Value="False" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="ErrorHandlerLogic" />
+            <om:Property Name="Signal" Value="True" />
+            <om:Element Type="VariableDeclaration" OID="043abc7a-7389-4b57-8d03-89902dad7d74" ParentLink="ServiceDeclaration_VariableDeclaration" LowerBound="43.1" HigherBound="44.1">
+                <om:Property Name="UseDefaultConstructor" Value="True" />
+                <om:Property Name="Type" Value="ErrorMessage" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="TheError" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="c865ac34-eb08-4cc1-96fa-87c46a71a6b8" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="41.1" HigherBound="42.1">
+                <om:Property Name="Type" Value="System.Xml.XmlDocument" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="ErrorMsg" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="4960b62d-4fac-476d-9f36-2e4437b4953b" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="42.1" HigherBound="43.1">
+                <om:Property Name="Type" Value="PractBTS.ErrorCollection.ErrorHandler.EHErrorSchema" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="ErrorReportMsg" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="ServiceBody" OID="50fe447b-f5bd-4159-b889-2a8157dff756" ParentLink="ServiceDeclaration_ServiceBody">
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="Scope" OID="1faf0c64-57cd-4a3f-bd4a-42e3a79a96fa" ParentLink="ServiceBody_Statement" LowerBound="46.1" HigherBound="176.1">
+                    <om:Property Name="InitializedTransactionType" Value="True" />
+                    <om:Property Name="IsSynchronized" Value="False" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Scope_Main Scope" />
+                    <om:Property Name="Signal" Value="True" />
+                    <om:Element Type="Receive" OID="ca6a9015-ac86-4081-a849-cf18b163a680" ParentLink="ComplexStatement_Statement" LowerBound="51.1" HigherBound="54.1">
+                        <om:Property Name="Activate" Value="True" />
+                        <om:Property Name="PortName" Value="ErrorsPort" />
+                        <om:Property Name="MessageName" Value="ErrorMsg" />
+                        <om:Property Name="OperationName" Value="Operation_RecieveError" />
+                        <om:Property Name="OperationMessageName" Value="Request" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Receive_ErrorMessage" />
+                        <om:Property Name="Signal" Value="True" />
+                        <om:Element Type="DNFPredicate" OID="2594645d-d308-405e-b6b6-00ce16676c74" ParentLink="Receive_DNFPredicate">
+                            <om:Property Name="LHS" Value="ErrorReport.ErrorType" />
+                            <om:Property Name="Grouping" Value="AND" />
+                            <om:Property Name="Operator" Value="Exists" />
+                            <om:Property Name="Signal" Value="False" />
+                        </om:Element>
+                    </om:Element>
+                    <om:Element Type="VariableAssignment" OID="b753edac-a087-49f2-bcde-4a55bad23ceb" ParentLink="ComplexStatement_Statement" LowerBound="54.1" HigherBound="69.1">
+                        <om:Property Name="Expression" Value="TheError = new ErrorMessage();&#xD;&#xA;TheError.Error.ErrorType = ErrorMsg(ErrorReport.ErrorType);&#xD;&#xA;System.Diagnostics.Trace.WriteLine(&quot;ErrorType = &quot;+TheError.Error.ErrorType);&#xD;&#xA;TheError.Error.Description = ErrorMsg(ErrorReport.Description);&#xD;&#xA;&#xD;&#xA;System.Diagnostics.Trace.WriteLine(&quot;TheError.Error.Description = &quot;+TheError.Error.Description);&#xD;&#xA;TheError.Error.FailureCategory = 0 ;//ErrorMsg(ErrorReport.FailureCategory);&#xD;&#xA;System.Diagnostics.Trace.WriteLine(&quot;FailureCategory = &quot;+TheError.Error.FailureCategory.ToString());&#xD;&#xA;&#xD;&#xA;TheError.Error.FailureCode= ErrorMsg(ErrorReport.FailureCode);&#xD;&#xA;System.Diagnostics.Trace.WriteLine(&quot;FailureCode = &quot;+TheError.Error.FailureCode);&#xD;&#xA;TheError.Error.RoutingFailureReportID = ErrorMsg(ErrorReport.RoutingFailureReportID);&#xD;&#xA;System.Diagnostics.Trace.WriteLine(&quot;RoutingFailureReportID = &quot;+TheError.Error.RoutingFailureReportID);&#xD;&#xA;&#xD;&#xA;" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Expression_SetTheErrors" />
+                        <om:Property Name="Signal" Value="False" />
+                    </om:Element>
+                    <om:Element Type="Scope" OID="dd29a6e6-6cd3-4336-923f-3bea5ec6a865" ParentLink="ComplexStatement_Statement" LowerBound="69.1" HigherBound="89.1">
+                        <om:Property Name="InitializedTransactionType" Value="True" />
+                        <om:Property Name="IsSynchronized" Value="False" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Scope_MessageType" />
+                        <om:Property Name="Signal" Value="True" />
+                        <om:Element Type="VariableAssignment" OID="a75a30b1-8651-4cf8-84be-86dc18342a9f" ParentLink="ComplexStatement_Statement" LowerBound="74.1" HigherBound="77.1">
+                            <om:Property Name="Expression" Value="TheError.Error.MessageType = ErrorMsg(ErrorReport.MessageType);&#xD;&#xA;System.Diagnostics.Trace.WriteLine(&quot;MessageType = &quot;+TheError.Error.MessageType);&#xD;&#xA;" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="Expression_MessageType" />
+                            <om:Property Name="Signal" Value="True" />
+                        </om:Element>
+                        <om:Element Type="Catch" OID="8db7a76a-111c-4ccb-be6c-6992f4550c70" ParentLink="Scope_Catch" LowerBound="80.1" HigherBound="87.1">
+                            <om:Property Name="ExceptionName" Value="vExcp" />
+                            <om:Property Name="ExceptionType" Value="Microsoft.XLANGs.BaseTypes.MissingPropertyException" />
+                            <om:Property Name="IsFaultMessage" Value="False" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="CatchException_MessageTypeNotSet" />
+                            <om:Property Name="Signal" Value="True" />
+                            <om:Element Type="VariableAssignment" OID="0aa8d45a-7fd3-4f01-a444-2d732fc387ad" ParentLink="Catch_Statement" LowerBound="83.1" HigherBound="86.1">
+                                <om:Property Name="Expression" Value="TheError.Error.MessageType = &quot;Undefined&quot;;&#xD;&#xA;System.Diagnostics.Trace.WriteLine(&quot;MessageType = &quot;+TheError.Error.MessageType);&#xD;&#xA;" />
+                                <om:Property Name="ReportToAnalyst" Value="True" />
+                                <om:Property Name="Name" Value="Expression_UndefinedMessageType" />
+                                <om:Property Name="Signal" Value="True" />
+                            </om:Element>
+                        </om:Element>
+                    </om:Element>
+                    <om:Element Type="Scope" OID="841ed7dd-b9c2-42c9-be9b-b3aa87e88e02" ParentLink="ComplexStatement_Statement" LowerBound="89.1" HigherBound="111.1">
+                        <om:Property Name="InitializedTransactionType" Value="True" />
+                        <om:Property Name="IsSynchronized" Value="False" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Scope_Receiver" />
+                        <om:Property Name="Signal" Value="True" />
+                        <om:Element Type="VariableAssignment" OID="72c7552f-99f5-484f-9434-a887fa225dac" ParentLink="ComplexStatement_Statement" LowerBound="94.1" HigherBound="98.1">
+                            <om:Property Name="Expression" Value="//The optional one&#xD;&#xA;TheError.Error.InboundTransportLocation = ErrorMsg(ErrorReport.InboundTransportLocation);&#xD;&#xA;TheError.Error.ReceivePortName = ErrorMsg(ErrorReport.ReceivePortName);" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="Expression_ReceiverInfo" />
+                            <om:Property Name="Signal" Value="True" />
+                        </om:Element>
+                        <om:Element Type="Catch" OID="7178b8b3-80d3-4377-be98-0359f4cd80b6" ParentLink="Scope_Catch" LowerBound="101.1" HigherBound="109.1">
+                            <om:Property Name="ExceptionType" Value="General Exception" />
+                            <om:Property Name="IsFaultMessage" Value="False" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="CatchException_Receiver" />
+                            <om:Property Name="Signal" Value="True" />
+                            <om:Element Type="VariableAssignment" OID="9c6e0e16-aac5-47cb-94e7-29c088251fe4" ParentLink="Catch_Statement" LowerBound="104.1" HigherBound="108.1">
+                                <om:Property Name="Expression" Value="//The optional one&#xD;&#xA;TheError.Error.InboundTransportLocation = System.String.Empty;&#xD;&#xA;TheError.Error.ReceivePortName = System.String.Empty;&#xD;&#xA;" />
+                                <om:Property Name="ReportToAnalyst" Value="True" />
+                                <om:Property Name="Name" Value="Expression_NoReceiver" />
+                                <om:Property Name="Signal" Value="True" />
+                            </om:Element>
+                        </om:Element>
+                    </om:Element>
+                    <om:Element Type="Scope" OID="7ffc3a6a-dc15-4ecd-a1ad-7ade80c33ecc" ParentLink="ComplexStatement_Statement" LowerBound="111.1" HigherBound="131.1">
+                        <om:Property Name="InitializedTransactionType" Value="True" />
+                        <om:Property Name="IsSynchronized" Value="False" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Scope_SendPort" />
+                        <om:Property Name="Signal" Value="True" />
+                        <om:Element Type="VariableAssignment" OID="0281cfe6-9ddd-417b-807f-598d9876b014" ParentLink="ComplexStatement_Statement" LowerBound="116.1" HigherBound="119.1">
+                            <om:Property Name="Expression" Value="TheError.Error.OutboundTransportLocation = ErrorMsg(ErrorReport.OutboundTransportLocation);&#xD;&#xA;TheError.Error.SendPortName = ErrorMsg(ErrorReport.SendPortName);&#xD;&#xA;" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="Expression_SendPort" />
+                            <om:Property Name="Signal" Value="True" />
+                        </om:Element>
+                        <om:Element Type="Catch" OID="743418cf-6a24-4615-9cca-50c9177f8772" ParentLink="Scope_Catch" LowerBound="122.1" HigherBound="129.1">
+                            <om:Property Name="ExceptionType" Value="General Exception" />
+                            <om:Property Name="IsFaultMessage" Value="False" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="CatchException_NoSendPort" />
+                            <om:Property Name="Signal" Value="True" />
+                            <om:Element Type="VariableAssignment" OID="49c93231-7e9d-4a54-9399-4f2e93a6ef41" ParentLink="Catch_Statement" LowerBound="125.1" HigherBound="128.1">
+                                <om:Property Name="Expression" Value="TheError.Error.OutboundTransportLocation = System.String.Empty;&#xD;&#xA;TheError.Error.SendPortName = System.String.Empty;&#xD;&#xA;" />
+                                <om:Property Name="ReportToAnalyst" Value="True" />
+                                <om:Property Name="Name" Value="Expression_NoSendPort" />
+                                <om:Property Name="Signal" Value="True" />
+                            </om:Element>
+                        </om:Element>
+                    </om:Element>
+                    <om:Element Type="VariableAssignment" OID="5fbb41b4-1963-4897-be10-5cde1dfbc835" ParentLink="ComplexStatement_Statement" LowerBound="131.1" HigherBound="133.1">
+                        <om:Property Name="Expression" Value="ArchiveDynmicPort(Microsoft.XLANGs.BaseTypes.Address) = @&quot;file://C:\PractBTS\ErrorCollection\DataFolders\BadMessages\&quot;+ErrorMsg(BTS.MessageID)+&quot;.bad&quot; ;&#xD;&#xA;" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Expression_SetDynamicPort" />
+                        <om:Property Name="Signal" Value="True" />
+                    </om:Element>
+                    <om:Element Type="Send" OID="307fd43c-f5c3-4daa-9448-d4cb004af4d2" ParentLink="ComplexStatement_Statement" LowerBound="133.1" HigherBound="135.1">
+                        <om:Property Name="PortName" Value="ArchiveDynmicPort" />
+                        <om:Property Name="MessageName" Value="ErrorMsg" />
+                        <om:Property Name="OperationName" Value="Operation_1" />
+                        <om:Property Name="OperationMessageName" Value="Request" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Send_Archive" />
+                        <om:Property Name="Signal" Value="True" />
+                    </om:Element>
+                    <om:Element Type="Scope" OID="68f1f996-7940-444d-bdd2-817b11489515" ParentLink="ComplexStatement_Statement" LowerBound="135.1" HigherBound="155.1">
+                        <om:Property Name="InitializedTransactionType" Value="True" />
+                        <om:Property Name="IsSynchronized" Value="False" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Scope_SetMessageData" />
+                        <om:Property Name="Signal" Value="True" />
+                        <om:Element Type="VariableAssignment" OID="8dfa8d8c-3cc3-44e6-b959-73bc931b8357" ParentLink="ComplexStatement_Statement" LowerBound="140.1" HigherBound="143.1">
+                            <om:Property Name="Expression" Value="TheError.Message = @&quot;C:\XTProjects\CODE\BizTalk\AutoErrorHandler\DataFolders\BadMessages\&quot;+ErrorMsg(BTS.MessageID)+&quot;.bad&quot;;&#xD;&#xA;System.Diagnostics.Debug.WriteLine(&quot;OutFileName = &quot;+TheError.Message.ToString());&#xD;&#xA;" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="Expression_SetMessgae" />
+                            <om:Property Name="Signal" Value="True" />
+                        </om:Element>
+                        <om:Element Type="Catch" OID="635308d3-eef9-4cce-b72a-8e30829d137e" ParentLink="Scope_Catch" LowerBound="146.1" HigherBound="153.1">
+                            <om:Property Name="ExceptionName" Value="vexcxp" />
+                            <om:Property Name="ExceptionType" Value="System.Exception" />
+                            <om:Property Name="IsFaultMessage" Value="False" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="CatchException_SetMessageData" />
+                            <om:Property Name="Signal" Value="True" />
+                            <om:Element Type="VariableAssignment" OID="fd37fff4-e28f-4e48-a00a-0efe251eaf4d" ParentLink="Catch_Statement" LowerBound="149.1" HigherBound="152.1">
+                                <om:Property Name="Expression" Value="TheError.Message = System.String.Empty;&#xD;&#xA;System.Diagnostics.Debug.WriteLine(&quot;could not assign the messgae: \n&quot;+vexcxp.ToString());&#xD;&#xA;" />
+                                <om:Property Name="ReportToAnalyst" Value="True" />
+                                <om:Property Name="Name" Value="Expression_SetMessageException" />
+                                <om:Property Name="Signal" Value="False" />
+                            </om:Element>
+                        </om:Element>
+                    </om:Element>
+                    <om:Element Type="Construct" OID="a6041da3-b188-4f3e-b24f-05c762ea930f" ParentLink="ComplexStatement_Statement" LowerBound="155.1" HigherBound="163.1">
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="ConstructMessage_ErrorReportMsg" />
+                        <om:Property Name="Signal" Value="True" />
+                        <om:Element Type="MessageAssignment" OID="03e73e15-67d5-41d5-bc67-98a04d9accee" ParentLink="ComplexStatement_Statement" LowerBound="158.1" HigherBound="162.1">
+                            <om:Property Name="Expression" Value="ErrorReportMsg = TheError.ToXML();&#xD;&#xA;System.Diagnostics.Debug.WriteLine(TheError.ToString());&#xD;&#xA;&#xD;&#xA;" />
+                            <om:Property Name="ReportToAnalyst" Value="False" />
+                            <om:Property Name="Name" Value="MessageAssignment_ErrorReportMsg" />
+                            <om:Property Name="Signal" Value="True" />
+                        </om:Element>
+                        <om:Element Type="MessageRef" OID="3c2ffff2-77f4-40c4-8eb7-8e4e27ffd1cb" ParentLink="Construct_MessageRef" LowerBound="156.31" HigherBound="156.45">
+                            <om:Property Name="Ref" Value="ErrorReportMsg" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Signal" Value="False" />
+                        </om:Element>
+                    </om:Element>
+                    <om:Element Type="Send" OID="c95ce7bd-1385-4ed7-90cb-0e1917a3e0ce" ParentLink="ComplexStatement_Statement" LowerBound="163.1" HigherBound="165.1">
+                        <om:Property Name="PortName" Value="ErrorMessagePort" />
+                        <om:Property Name="MessageName" Value="ErrorReportMsg" />
+                        <om:Property Name="OperationName" Value="Operation_1" />
+                        <om:Property Name="OperationMessageName" Value="Request" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Send_ErrorReport" />
+                        <om:Property Name="Signal" Value="True" />
+                    </om:Element>
+                    <om:Element Type="Catch" OID="7394c9d9-2840-4377-b19e-faaad6e5d8a6" ParentLink="Scope_Catch" LowerBound="168.1" HigherBound="174.1">
+                        <om:Property Name="ExceptionName" Value="excp" />
+                        <om:Property Name="ExceptionType" Value="System.Exception" />
+                        <om:Property Name="IsFaultMessage" Value="False" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="CatchException_MainAll" />
+                        <om:Property Name="Signal" Value="True" />
+                        <om:Element Type="VariableAssignment" OID="3b602618-4c79-4364-9acc-e0e091533224" ParentLink="Catch_Statement" LowerBound="171.1" HigherBound="173.1">
+                            <om:Property Name="Expression" Value="System.Diagnostics.Debug.WriteLine(&quot;Exception Thrown&quot;+excp.ToString());" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="Expression_Excption" />
+                            <om:Property Name="Signal" Value="True" />
+                        </om:Element>
+                    </om:Element>
+                </om:Element>
+            </om:Element>
+            <om:Element Type="PortDeclaration" OID="67f475f2-af49-40d7-b7ec-11199840156e" ParentLink="ServiceDeclaration_PortDeclaration" LowerBound="35.1" HigherBound="37.1">
+                <om:Property Name="PortModifier" Value="Implements" />
+                <om:Property Name="Orientation" Value="Left" />
+                <om:Property Name="PortIndex" Value="3" />
+                <om:Property Name="IsWebPort" Value="False" />
+                <om:Property Name="OrderedDelivery" Value="False" />
+                <om:Property Name="DeliveryNotification" Value="None" />
+                <om:Property Name="Type" Value="PractBTS.ErrorCollection.ErrorHandler.ErrorsPortType" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="ErrorsPort" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="DirectBindingAttribute" OID="bf8a78d1-f064-4d80-b29e-1921a9ba954f" ParentLink="PortDeclaration_CLRAttribute" LowerBound="35.1" HigherBound="36.1">
+                    <om:Property Name="DirectBindingType" Value="MessageBox" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+            <om:Element Type="PortDeclaration" OID="449641a9-c187-4722-bb6b-dd06d4be3509" ParentLink="ServiceDeclaration_PortDeclaration" LowerBound="37.1" HigherBound="39.1">
+                <om:Property Name="PortModifier" Value="Uses" />
+                <om:Property Name="Orientation" Value="Right" />
+                <om:Property Name="PortIndex" Value="130" />
+                <om:Property Name="IsWebPort" Value="False" />
+                <om:Property Name="OrderedDelivery" Value="False" />
+                <om:Property Name="DeliveryNotification" Value="None" />
+                <om:Property Name="Type" Value="PractBTS.ErrorCollection.ErrorHandler.ErrorMsgPortType" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="ErrorMessagePort" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="LogicalBindingAttribute" OID="aa52612c-ac49-4ecf-8085-1a43d879bdf6" ParentLink="PortDeclaration_CLRAttribute" LowerBound="37.1" HigherBound="38.1">
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+            <om:Element Type="PortDeclaration" OID="0da2a748-fc1c-47ab-ba79-ca52ea07b624" ParentLink="ServiceDeclaration_PortDeclaration" LowerBound="39.1" HigherBound="41.1">
+                <om:Property Name="PortModifier" Value="Uses" />
+                <om:Property Name="Orientation" Value="Right" />
+                <om:Property Name="PortIndex" Value="95" />
+                <om:Property Name="IsWebPort" Value="False" />
+                <om:Property Name="OrderedDelivery" Value="False" />
+                <om:Property Name="DeliveryNotification" Value="None" />
+                <om:Property Name="Type" Value="PractBTS.ErrorCollection.ErrorHandler.PortType_DynamixSend" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="ArchiveDynmicPort" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="PhysicalBindingAttribute" OID="9fe71975-845c-48c6-b881-0dbd27fa5c69" ParentLink="PortDeclaration_CLRAttribute" LowerBound="39.1" HigherBound="40.1">
+                    <om:Property Name="InPipeline" Value="Microsoft.BizTalk.DefaultPipelines.XMLReceive" />
+                    <om:Property Name="OutPipeline" Value="Microsoft.BizTalk.DefaultPipelines.PassThruTransmit" />
+                    <om:Property Name="TransportType" Value="HTTP" />
+                    <om:Property Name="URI" Value="http://tempURI" />
+                    <om:Property Name="IsDynamic" Value="True" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+    </om:Element>
+</om:MetaModel>
+#endif // __DESIGNER_DATA
+[Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
+module PractBTS.ErrorCollection.ErrorHandler
+{
+    internal porttype ErrorsPortType
+    {
+        oneway Operation_RecieveError
+        {
+            System.Xml.XmlDocument
+        };
+    };
+    internal porttype ArchivePortType
+    {
+        oneway Operation_1
+        {
+            System.Xml.XmlDocument
+        };
+    };
+    internal porttype ErrorMsgPortType
+    {
+        oneway Operation_1
+        {
+            EHErrorSchema
+        };
+    };
+    internal porttype PortType_DynamixSend
+    {
+        oneway Operation_1
+        {
+            System.Xml.XmlDocument
+        };
+    };
+    [Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
+    internal service ErrorHandlerLogic
+    {
+        [Microsoft.XLANGs.BaseTypes.DirectBinding()]
+        port implements ErrorsPortType ErrorsPort;
+        [Microsoft.XLANGs.BaseTypes.LogicalBinding()]
+        port uses ErrorMsgPortType ErrorMessagePort;
+        [Microsoft.XLANGs.BaseTypes.PhysicalBinding(typeof(Microsoft.BizTalk.DefaultPipelines.PassThruTransmit))]
+        port uses dynamic PortType_DynamixSend ArchiveDynmicPort;
+        message System.Xml.XmlDocument ErrorMsg;
+        message EHErrorSchema ErrorReportMsg;
+        ErrorMessage TheError;
+        body ()
+        {
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("1faf0c64-57cd-4a3f-bd4a-42e3a79a96fa")]
+            scope
+            {
+                body
+                {
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("ca6a9015-ac86-4081-a849-cf18b163a680")]
+                    activate ((ErrorReport.ErrorType exists))receive (ErrorsPort.Operation_RecieveError, ErrorMsg);
+                    TheError = new ErrorMessage();
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("b753edac-a087-49f2-bcde-4a55bad23ceb")]
+                    TheError = new ErrorMessage();
+                    TheError.Error.ErrorType = ErrorMsg(ErrorReport.ErrorType);
+                    System.Diagnostics.Trace.WriteLine("ErrorType = "+TheError.Error.ErrorType);
+                    TheError.Error.Description = ErrorMsg(ErrorReport.Description);
+                    
+                    System.Diagnostics.Trace.WriteLine("TheError.Error.Description = "+TheError.Error.Description);
+                    TheError.Error.FailureCategory = 0 ;//ErrorMsg(ErrorReport.FailureCategory);
+                    System.Diagnostics.Trace.WriteLine("FailureCategory = "+TheError.Error.FailureCategory.ToString());
+                    
+                    TheError.Error.FailureCode= ErrorMsg(ErrorReport.FailureCode);
+                    System.Diagnostics.Trace.WriteLine("FailureCode = "+TheError.Error.FailureCode);
+                    TheError.Error.RoutingFailureReportID = ErrorMsg(ErrorReport.RoutingFailureReportID);
+                    System.Diagnostics.Trace.WriteLine("RoutingFailureReportID = "+TheError.Error.RoutingFailureReportID);
+                    
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("dd29a6e6-6cd3-4336-923f-3bea5ec6a865")]
+                    scope
+                    {
+                        body
+                        {
+                            [Microsoft.XLANGs.BaseTypes.DesignerPosition("a75a30b1-8651-4cf8-84be-86dc18342a9f")]
+                            TheError.Error.MessageType = ErrorMsg(ErrorReport.MessageType);
+                            System.Diagnostics.Trace.WriteLine("MessageType = "+TheError.Error.MessageType);
+                        }
+                        exceptions
+                        {
+                            [Microsoft.XLANGs.BaseTypes.DesignerPosition("8db7a76a-111c-4ccb-be6c-6992f4550c70")]
+                            catch (Microsoft.XLANGs.BaseTypes.MissingPropertyException vExcp)
+                            {
+                                [Microsoft.XLANGs.BaseTypes.DesignerPosition("0aa8d45a-7fd3-4f01-a444-2d732fc387ad")]
+                                TheError.Error.MessageType = "Undefined";
+                                System.Diagnostics.Trace.WriteLine("MessageType = "+TheError.Error.MessageType);
+                            }
+                        }
+                    }
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("841ed7dd-b9c2-42c9-be9b-b3aa87e88e02")]
+                    scope
+                    {
+                        body
+                        {
+                            [Microsoft.XLANGs.BaseTypes.DesignerPosition("72c7552f-99f5-484f-9434-a887fa225dac")]
+                            //The optional one
+                            TheError.Error.InboundTransportLocation = ErrorMsg(ErrorReport.InboundTransportLocation);
+                            TheError.Error.ReceivePortName = ErrorMsg(ErrorReport.ReceivePortName);
+                        }
+                        exceptions
+                        {
+                            [Microsoft.XLANGs.BaseTypes.DesignerPosition("7178b8b3-80d3-4377-be98-0359f4cd80b6")]
+                            catch
+                            {
+                                [Microsoft.XLANGs.BaseTypes.DesignerPosition("9c6e0e16-aac5-47cb-94e7-29c088251fe4")]
+                                //The optional one
+                                TheError.Error.InboundTransportLocation = System.String.Empty;
+                                TheError.Error.ReceivePortName = System.String.Empty;
+                            }
+                        }
+                    }
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("7ffc3a6a-dc15-4ecd-a1ad-7ade80c33ecc")]
+                    scope
+                    {
+                        body
+                        {
+                            [Microsoft.XLANGs.BaseTypes.DesignerPosition("0281cfe6-9ddd-417b-807f-598d9876b014")]
+                            TheError.Error.OutboundTransportLocation = ErrorMsg(ErrorReport.OutboundTransportLocation);
+                            TheError.Error.SendPortName = ErrorMsg(ErrorReport.SendPortName);
+                        }
+                        exceptions
+                        {
+                            [Microsoft.XLANGs.BaseTypes.DesignerPosition("743418cf-6a24-4615-9cca-50c9177f8772")]
+                            catch
+                            {
+                                [Microsoft.XLANGs.BaseTypes.DesignerPosition("49c93231-7e9d-4a54-9399-4f2e93a6ef41")]
+                                TheError.Error.OutboundTransportLocation = System.String.Empty;
+                                TheError.Error.SendPortName = System.String.Empty;
+                            }
+                        }
+                    }
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("5fbb41b4-1963-4897-be10-5cde1dfbc835")]
+                    ArchiveDynmicPort(Microsoft.XLANGs.BaseTypes.Address) = @"file://C:\PractBTS\ErrorCollection\DataFolders\BadMessages\"+ErrorMsg(BTS.MessageID)+".bad" ;
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("307fd43c-f5c3-4daa-9448-d4cb004af4d2")]
+                    send (ArchiveDynmicPort.Operation_1, ErrorMsg);
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("68f1f996-7940-444d-bdd2-817b11489515")]
+                    scope
+                    {
+                        body
+                        {
+                            [Microsoft.XLANGs.BaseTypes.DesignerPosition("8dfa8d8c-3cc3-44e6-b959-73bc931b8357")]
+                            TheError.Message = @"C:\XTProjects\CODE\BizTalk\AutoErrorHandler\DataFolders\BadMessages\"+ErrorMsg(BTS.MessageID)+".bad";
+                            System.Diagnostics.Debug.WriteLine("OutFileName = "+TheError.Message.ToString());
+                        }
+                        exceptions
+                        {
+                            [Microsoft.XLANGs.BaseTypes.DesignerPosition("635308d3-eef9-4cce-b72a-8e30829d137e")]
+                            catch (System.Exception vexcxp)
+                            {
+                                [Microsoft.XLANGs.BaseTypes.DesignerPosition("fd37fff4-e28f-4e48-a00a-0efe251eaf4d")]
+                                TheError.Message = System.String.Empty;
+                                System.Diagnostics.Debug.WriteLine("could not assign the messgae: \n"+vexcxp.ToString());
+                            }
+                        }
+                    }
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("a6041da3-b188-4f3e-b24f-05c762ea930f")]
+                    construct ErrorReportMsg
+                    {
+                        [Microsoft.XLANGs.BaseTypes.DesignerPosition("03e73e15-67d5-41d5-bc67-98a04d9accee")]
+                        ErrorReportMsg = TheError.ToXML();
+                        System.Diagnostics.Debug.WriteLine(TheError.ToString());
+                        
+                    }
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("c95ce7bd-1385-4ed7-90cb-0e1917a3e0ce")]
+                    send (ErrorMessagePort.Operation_1, ErrorReportMsg);
+                }
+                exceptions
+                {
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("7394c9d9-2840-4377-b19e-faaad6e5d8a6")]
+                    catch (System.Exception excp)
+                    {
+                        [Microsoft.XLANGs.BaseTypes.DesignerPosition("3b602618-4c79-4364-9acc-e0e091533224")]
+                        System.Diagnostics.Debug.WriteLine("Exception Thrown"+excp.ToString());
+                    }
+                }
+            }
+        }
+    }
+}
+

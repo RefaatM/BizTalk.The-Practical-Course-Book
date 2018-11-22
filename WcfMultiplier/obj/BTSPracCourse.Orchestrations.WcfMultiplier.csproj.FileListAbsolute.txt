@@ -1,0 +1,5 @@
+E:\BTSPracCourse\WcfMultiplier\obj\Debug\ResolveAssemblyReference.cache
+E:\BTSPracCourse\WcfMultiplier\obj\Debug\WcfMultiplier.dll
+E:\BTSPracCourse\WcfMultiplier\obj\Debug\WcfMultiplier.pdb
+E:\BTSPracCourse\WcfMultiplier\bin\WcfMultiplier.dll
+E:\BTSPracCourse\WcfMultiplier\bin\WcfMultiplier.pdb

@@ -1,0 +1,4 @@
+<ns0:Order xmlns:ns0="http:/www.MoustafaRefaat.com/BTSPracCourse.RulesEngine.Schemas.OrdersSchema">
+  <Header ClientID="210" SpecialDiscount="50" />
+  <LineItem ID="10" Quantity="1000" Price="10" DiscountRate="5" />
+</ns0:Order>

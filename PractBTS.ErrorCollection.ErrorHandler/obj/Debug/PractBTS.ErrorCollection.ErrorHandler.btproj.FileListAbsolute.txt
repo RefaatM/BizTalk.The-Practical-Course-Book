@@ -1,0 +1,5 @@
+C:\Development\BTSPracCourse\BTS2009\BTSPracCourse\PractBTS.ErrorCollection.ErrorHandler\bin\Debug\PractBTS.ErrorCollection.ErrorHandler.dll
+C:\Development\BTSPracCourse\BTS2009\BTSPracCourse\PractBTS.ErrorCollection.ErrorHandler\bin\Debug\PractBTS.ErrorCollection.ErrorHandler.pdb
+C:\Development\BTSPracCourse\BTS2009\BTSPracCourse\PractBTS.ErrorCollection.ErrorHandler\bin\Debug\PractBTS.ErrorCoolection.HelperClasses.dll
+C:\Development\BTSPracCourse\BTS2009\BTSPracCourse\PractBTS.ErrorCollection.ErrorHandler\obj\Debug\PractBTS.ErrorCollection.ErrorHandler.dll
+C:\Development\BTSPracCourse\BTS2009\BTSPracCourse\PractBTS.ErrorCollection.ErrorHandler\obj\Debug\PractBTS.ErrorCollection.ErrorHandler.pdb

@@ -1,0 +1,10 @@
+C:\Development\BTSPracCourse\PracBTS2009\WcfMultiplier\bin\WcfMultiplier.dll
+C:\Development\BTSPracCourse\PracBTS2009\WcfMultiplier\bin\WcfMultiplier.pdb
+C:\Development\BTSPracCourse\PracBTS2009\WcfMultiplier\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\BTSPracCourse\PracBTS2009\WcfMultiplier\obj\Debug\WcfMultiplier.dll
+C:\Development\BTSPracCourse\PracBTS2009\WcfMultiplier\obj\Debug\WcfMultiplier.pdb
+C:\Development\BTSPracCourse\BTS2009\BTSPracCourse\WcfMultiplier\bin\WcfMultiplier.dll
+C:\Development\BTSPracCourse\BTS2009\BTSPracCourse\WcfMultiplier\bin\WcfMultiplier.pdb
+C:\Development\BTSPracCourse\BTS2009\BTSPracCourse\WcfMultiplier\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\BTSPracCourse\BTS2009\BTSPracCourse\WcfMultiplier\obj\Debug\WcfMultiplier.dll
+C:\Development\BTSPracCourse\BTS2009\BTSPracCourse\WcfMultiplier\obj\Debug\WcfMultiplier.pdb
